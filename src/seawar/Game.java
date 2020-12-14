@@ -93,4 +93,5 @@ public interface Game {
     public void setConnection(String remoteHost, int remotePort, int localPort, PrintStream userOutput);
     
     public void disconnect() throws IOException;
+    
 }
